@@ -984,7 +984,7 @@ echo "              <tr><td bgcolor='$row_color' class=table_rows width=10% alig
                       Civil Aviation Organization) for your local airport. This is the unique four letter international ID for the airport. METAR 
                       reports are created at roughly 4500 airports from around the world, so you probably live near one of them. The airports make a 
                       report once or twice an hour, and these reports are stored at the National Weather Service and are publically available via HTTP 
-                      or FTP. Visit <a href='https://pilotweb.nas.faa.gov/qryhtml/icao/' class=admin_headings style='text-decoration:underline;'> 
+                      or FTP. Visit <a href='http://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code#Prefixes' class=admin_headings style='text-decoration:underline;'> 
                       https://pilotweb.nas.faa.gov/qryhtml/icao/</a> to find a corresponding ICAO near you. If 'display_weather' is set 
                       to \"no\", this option is ignored. If 'display_weather' is set to \"yes\", you must provide an ICAO here.
                  </td></tr>\n";

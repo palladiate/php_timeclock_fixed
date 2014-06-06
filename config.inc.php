@@ -78,13 +78,13 @@ $disable_sysedit = "no";
    "yes" or "no". If "yes" is chosen, users will be required to enter a password
    whenever they change their status. Default is "no". */
 
-$use_passwd = "no";
+$use_passwd = "yes";
 
 
 /* If you only want certain users to have the ability to view and run the reports, 
    change $use_reports_password to "yes". Default is "no"; */
 
-$use_reports_password = "no";
+$use_reports_password = "yes";
 
 
 /* Enable the option to log the ip addresses of the connecting computers when users

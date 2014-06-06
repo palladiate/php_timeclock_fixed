@@ -61,6 +61,7 @@ Anyhow, here's the instructions for installation.
 
 - Inconsistent password usage
 - Deprecated eregi php handles
+- config.inc.php wrong ownership
 
 ### Feature Requests
 
