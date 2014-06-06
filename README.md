@@ -17,27 +17,29 @@ mysql -uroot -e "create database 'timeclock'"
 
 2. Create a MySql user for phptimeclock to interact with your database. 
 
-	a. Enter the MySQL interactive prompt
+a. Enter the MySQL interactive prompt
 	
-mysql -u root -p
+	mysql -u root -p
 	
-	b. Run the below command to create your new user. The user I'm making here is 
-	   "sqltimeclock". You can make yours whatever you want, just be sure to record it. 
-	   This is also where you set that user's password, so be careful. The password in 
-	   this example is "PHPT1ME!"
+b. Run the below command to create your new user. The user I'm making here is 
+"sqltimeclock". You can make yours whatever you want, just be sure to record it. This is 
+also where you set that user's password, so be careful. The password in this example
+is "PHPT1ME!"
 	
-CREATE USER 'sqltimeclock'@'localhost' IDENTIFIED BY 'PHPT1ME!';
+	CREATE USER 'sqltimeclock'@'localhost' IDENTIFIED BY 'PHPT1ME!';
 
-	c. Grant the user you just created access to the database it needs to mess with.
+c. Grant the user you just created access to the database it needs to mess with.
 	
-GRANT ALL PRIVILEGES ON timeclock . * TO 'sqltimeclock'@'localhost';
+	GRANT ALL PRIVILEGES ON timeclock . * TO 'sqltimeclock'@'localhost';
 
-	d. Now we flush out the privileges to make sure we're good.
+d. Now we flush out the privileges to make sure we're good.
 	
-FLUSH PRILEGES;
+	FLUSH PRILEGES;
 
-	e. Now we get out of interactive mode. 
+e. Now we get out of interactive mode. 
 	
-EXIT
+	EXIT
 
-3. 
+3. Now that we've got that squared away, lets import our tables.
+	
+	
