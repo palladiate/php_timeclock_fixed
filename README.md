@@ -55,7 +55,12 @@ Anyhow, here's the instructions for installation.
 
 1. Use your favorite text editor to update config.inc.php with your MySQL database information
 
+1. For some reason, we also need to change the ownership of the configuration files (this is being worked on)
+
+> `shell> sudo chown www-data:www-data /var/www/html/config.inc.php`
+
 1. Open up your web browser, and point it to your web host. The initial Login is admin with password admin
+
 
 ### Known bugs
 
